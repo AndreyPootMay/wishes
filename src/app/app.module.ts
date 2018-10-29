@@ -10,15 +10,19 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 
 import { PendingsPage } from '../pages/pendings/pendings.component';
 import { FinishedPage } from '../pages/finished/finished.component';
+import { AddPage } from '../pages/add/add.component';
+
 
 import { WishesService } from '../services/wishes.service';
+
 
 @NgModule({
   declarations: [
     MyApp,
     TabsPage,
     PendingsPage,
-    FinishedPage
+    FinishedPage,
+    AddPage
   ],
   imports: [
     BrowserModule,
@@ -29,7 +33,8 @@ import { WishesService } from '../services/wishes.service';
     MyApp,
     TabsPage,
     PendingsPage,
-    FinishedPage
+    FinishedPage,
+    AddPage
   ],
   providers: [
     StatusBar,
